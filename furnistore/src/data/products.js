@@ -1,0 +1,47 @@
+export const products = [
+  {
+    id: 'p1',
+    name: 'Oakwood Lounge Chair',
+    category: 'Chairs',
+    price: 249,
+    badge: 'Featured',
+    image: 'https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1200&auto=format&fit=crop',
+  },
+  {
+    id: 'p2',
+    name: 'Walnut Coffee Table',
+    category: 'Tables',
+    price: 189,
+    badge: 'Bestseller',
+    image: 'https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1200&auto=format&fit=crop',
+  },
+  {
+    id: 'p3',
+    name: 'Modern Fabric Sofa',
+    category: 'Sofas',
+    price: 799,
+    badge: 'New',
+    image: 'https://images.unsplash.com/photo-1493666438817-866a91353ca9?q=80&w=1200&auto=format&fit=crop',
+  },
+  {
+    id: 'p4',
+    name: 'Minimalist Floor Lamp',
+    category: 'Lighting',
+    price: 129,
+    image: 'https://images.unsplash.com/photo-1503602642458-232111445657?q=80&w=1200&auto=format&fit=crop',
+  },
+  {
+    id: 'p5',
+    name: 'Leather Accent Chair',
+    category: 'Chairs',
+    price: 349,
+    image: 'https://images.unsplash.com/photo-1582582429416-8a9dc52e0b91?q=80&w=1200&auto=format&fit=crop',
+  },
+  {
+    id: 'p6',
+    name: 'Solid Wood Dining Set',
+    category: 'Dining',
+    price: 1199,
+    image: 'https://images.unsplash.com/photo-1542259009477-d625272157b7?q=80&w=1200&auto=format&fit=crop',
+  },
+]

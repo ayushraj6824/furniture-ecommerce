@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html:focus-within {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-sand text-charcoal antialiased;
+  }
+}
+
+@layer components {
+  .container-section {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-md bg-brown-700 px-5 py-3 font-medium text-white shadow-sm transition hover:bg-brown-800 focus:outline-none focus:ring-2 focus:ring-brown-700/30;
+  }
+  .card {
+    @apply rounded-lg border border-black/5 bg-white shadow-sm transition hover:shadow-card;
+  }
+}
